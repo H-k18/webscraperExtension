@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Scraper</title>
+  <style>
+    body { font-family: Arial; padding: 10px; width: 300px; }
+    textarea { width: 100%; height: 60px; }
+    pre { white-space: pre-wrap; word-wrap: break-word; }
+  </style>
+</head>
+<body>
+  <h3>Scrape Page</h3>
+  <label for="selector">Enter CSS Selectors (comma-separated):</label>
+  <textarea id="selector" placeholder="e.g. h1, .price, #main-content"></textarea>
+  <button id="scrapeBtn">Scrape</button>
+  <pre id="output"></pre>
+  <script src="popup.js"></script>
+</body>
+</html>
